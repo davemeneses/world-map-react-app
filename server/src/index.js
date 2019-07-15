@@ -6,5 +6,5 @@ app.listen(port, () => {
 });
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
+  app.ues(express.static("client/build"));
 }
